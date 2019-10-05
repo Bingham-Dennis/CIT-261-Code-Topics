@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#FFFFFF;
+    font-family: Arial, sans-serif;
+}
+
+#content {
+    width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgb(148, 148, 148);
+}
+
+#topContent {
+    margin-top: -19px;
+    margin-left: 10px;
+}
+
+#topContent h3, #topContent p {
+    color: #FFFFFF;
+}
+
+.nav {
+    background-color: black;
+    color: green;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(0, 240, 228);
+}
+
+.nav a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+#logo {
+    margin-left: 10px;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-right: 2px;
+    line-height: 3;
+}
+
+.nav ul li a {
+    display: block;
+    text-decoration: none;
+    margin: 0 10px 0 10px;
+    color: rgb(0, 240, 228);
+}
+
+.nav ul li a:hover {
+    display: block;
+    text-decoration: none;
+    margin: 0 10px 0 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin-right: 2px;
+    line-height: 3;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    margin: 0 10px 0 10px;
+    color: rgb(0, 240, 228);
+}
+
+ul li a:hover {
+    display: block;
+    text-decoration: none;
+    margin: 0 10px 0 10px;
+    color: rgb(202, 202, 202);
+    border-radius: 5px;
+}
+
+.speak {
+    border-radius: 5px;
+    background-color: rgb(202, 202, 202);
+    color: rgb(5, 197, 197);
+    border-color: rgb(202, 202, 202);
+    padding: 15px 50px;
+}
