@@ -1,4 +1,6 @@
 # Don't Track Content of these folders
+/Journal\ Entries
+/Submission_Docs
 
 # Compiled Source #
 ###################
