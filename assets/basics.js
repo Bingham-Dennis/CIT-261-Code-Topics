@@ -96,7 +96,7 @@ function addPageContent() {
         },
         {
             heading: 'Whats Next',
-            paragraph: 'I am graduating in December. I do, however, already have a development job for a company called Simply Clinical it is a subsidiary company of a mental health hospital. It has been awesome learning all the different technologies that the web has to offer. I would love to work for a large corporation one day or start my own company.'
+            paragraph: 'I am graduating in December. I am currently working for a startup, and that has been a lot of fun. I would love to work for a large corporation one day, or start my own company.'
         },
         {
             heading: 'Closing it Out',
