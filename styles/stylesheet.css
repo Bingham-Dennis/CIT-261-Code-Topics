@@ -89,6 +89,12 @@ ul li a:hover {
     border-radius: 5px;
 }
 
+#hwLinks {
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+}
+
 .speak {
     border-radius: 5px;
     background-color: rgb(202, 202, 202);
