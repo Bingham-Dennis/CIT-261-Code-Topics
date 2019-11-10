@@ -1,0 +1,29 @@
+#content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+ul {
+  list-style-type: none;
+  margin-right: 2px;
+  line-height: 3;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  margin: 0 10px 0 10px;
+  color: rgb(0, 240, 228);
+  background-color: rgb(150, 150, 150);
+  border-radius: 5px;
+  text-align: center;
+}
+
+ul li a:hover {
+  display: block;
+  text-decoration: none;
+  margin: 0 10px 0 10px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+}

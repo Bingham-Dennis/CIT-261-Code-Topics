@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  background-image: url('sayan-nath-165552-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.myHeading {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+h1 {
+  margin-top: 1%;
+  margin-left: 2%;
+  color: #FFFFFF;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 25px 0px;
+}
+
+.inner-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin: 25px 10px;
+}
+
+.changeColor1 {
+  justify-content: space-between;
+  background-color: rgba(223, 0, 186, 0.5);
+  color: #FFFFFF;
+  margin: 10px 30px;
+  padding: 150px;
+}
+
+.changeColor1:hover {
+  justify-content: space-between;
+  background-color: rgba(223, 0, 186, 0.5);
+  color: #FFFFFF;
+  margin: 10px 30px;
+  padding: 150px;
+  font-weight: bolder;
+}
+
+.changeColor2 {
+  justify-content: space-between;
+  background-color: rgba(4, 0, 223, 0.5);
+  color: #FFFFFF;
+  margin: 10px 30px;
+  padding: 150px;
+}
+
+.changeColor2:hover {
+  justify-content: space-between;
+  background-color: rgba(4, 0, 223, 0.5);
+  color: #FFFFFF;
+  margin: 10px 30px;
+  padding: 150px;
+  font-weight: bolder;
+}
+
+.changeColor3 {
+  justify-content: space-between;
+  background-color: rgba(223, 123, 0, 0.5);
+  color: #FFFFFF;
+  margin: 10px 30px;
+  padding: 150px;
+}
+
+.changeColor3:hover {
+  justify-content: space-between;
+  background-color: rgba(223, 123, 0, 0.5);
+  color: #FFFFFF;
+  margin: 10px 30px;
+  padding: 150px;
+  font-weight: bolder;
+}
+
+.box {
+  justify-content: space-between;
+  background-color: rgba(0, 190, 117, 0.5);
+  color: #FFFFFF;
+  margin: 10px 30px;
+  padding: 150px;
+}
+
+.myBtn {
+ padding: 15px 30px;
+ border-radius: 5px;
+ font-size: 16px;
+ background-color: rgba(0, 96, 223, 0.60);
+ border-color: rgba(0, 96, 223, 0.60);
+ color: #FFFFFF;
+}
+
+.box:hover {
+  justify-content: space-between;
+  background-color: rgba(0, 190, 117, 0.5);
+  color: #FFFFFF;
+  margin: 10px 30px;
+  padding: 150px;
+  font-weight: bolder;
+}

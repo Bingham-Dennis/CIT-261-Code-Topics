@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="html5.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="content">
+    <div class="container">
+        <video width="500px" controls>
+            <source src="BigBuckBunny_320x180.mp4" type="video/mp4">
+          </video>
+          <p>Video courtesy of <a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a></p>
+    </div>
+    <div class="container">
+        <audio controls>
+            <source src="bensound-summer.mp3" type="audio/mpeg">
+        </audio>
+        <p>Music courtesy of <a href="https://www.bensound.com/royalty-free-music/track/summer-chill-relaxed-tropical" target="_blank">Benjamin Tissot</a></p>
+    </div>
+    <div class="container">
+        <canvas id="myCanvas"></canvas>
+        <p>Canvas example</p>
+    </div>
+  </div>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.fillStyle = "#0011FF";
+ctx.fillRect(100, 0, 100, 100);
+</script>
+
+</body>
+</html>

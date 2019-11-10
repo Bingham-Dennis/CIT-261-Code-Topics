@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="gun-list-styles.css">
+  <title>Test Objects</title>
+</head>
+<body onload="focusOnFirstInput()">
+  <div id="content">
+  <form>
+      <div class="input-container">
+          <label for="make">Make</label>
+          <input type="text" id="make" name="make" placeholder="Glock" required>
+      </div>
+      <div class="input-container">
+          <label for="model">Model</label>
+          <input type="text" id="model" name="model" placeholder="19" required>
+      </div>
+      <div class="input-container">
+          <label for="caliber">Caliber</label>
+          <input type="text" id="caliber" name="caliber" placeholder="9mm" required>
+      </div>
+      <div class="input-container">
+          <label for="price">Price</label>
+          <input type="text" id="price" name="price" placeholder="$xxx.xx" required>
+      </div>
+      <div class="input-container">
+          <label for="color">Color</label>
+          <input type="text" id="color" name="color" placeholder="Black" required>
+      </div>
+      <div class="input-container">
+          <label for="newGun">New Gun</label>
+          <input type="radio" id="newGun" name="newGun" placeholder="new?" required>
+      </div>
+      <div class="input-container">
+          <label for="purchased">Was Purchased</label>
+          <input type="radio" id="purchased" name="purchased" placeholder="purchased?" required>
+      </div>
+      <div class="input-container">
+          <label for="owner">Owner's Name</label>
+          <input type="text" id="owner" name="owner" placeholder="John Doe" required>
+      </div>
+      <div class="button-container">
+          <button id="add-firearm">Add Firearm</button>
+      </div>
+    </form>
+  <br>
+  <div>
+      <table id="display-firearms">
+        <tbody>
+          <tr>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Caliber</th>
+            <th>Price</th>
+            <th>Color</th>
+            <th>Owner</th>
+          </tr>
+        </tbody>
+        </table>
+        <div class="button-container">
+          <button id="clear-firearms">Clear List</button>
+        </div>
+  </div>
+  </div>
+  <script src="objects.js"></script>
+</body>
+</html>

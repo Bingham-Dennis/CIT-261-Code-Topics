@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 500px;
+  Height: 400px;
+  background-color: rgb(60, 60, 60);
+  border-radius: 5px;
+}
+
+form input {
+  border-color: transparent;
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.495);
+  color: white;
+  height: 30px;
+  width: 225px;
+  margin: 5px 5px;
+  font-size: 16px;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, .3);
+}
+
+form input:focus {
+  border-color: transparent;
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.495);
+  color: white;
+  height: 30px;
+  width: 225px;
+  margin: 5px 5px;
+  font-size: 16px;
+}
+
+form input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+form label {
+  width: 225px;
+  float: left;
+  color: white;
+  margin: 5px 15px;
+  line-height: 2;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+#input-container {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+#add-firearm {
+  border-color: rgb(0, 170, 0);
+  background-color: rgb(0, 170, 0);
+  color: white;
+}
+
+#add-firearm:hover {
+  border-color: rgb(0, 100, 0);
+  background-color: rgb(0, 100, 0);
+  color: white;
+}
+
+#clear-firearms {
+  border-color: rgb(170, 0, 0);
+  background-color: rgb(170, 0, 0);
+  color: white;
+}
+
+#clear-firearms:hover {
+  border-color: rgb(100, 0, 0);
+  background-color: rgb(100, 0, 0);
+  color: white;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 5px 5px;
+  width: 500px;
+  height: auto;
+}
+
+#display-firearms {
+  width: 500px;
+  border-radius: 5px;
+  background-color: rgb(60, 60, 60);
+  margin-left: 5px;
+}
