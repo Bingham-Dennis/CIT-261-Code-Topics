@@ -8,7 +8,7 @@ app.use(express.urlencoded({extended: true})); // support url encoded bodies
 let PORT = process.env.PORT || 8000;
 
 app.get('/', (req, res) => {
-  res.render('pages/index');
+  res.write('<h1>Welcome to Weightloss API</h1>');
 });
 
 app.listen(PORT, () => {
