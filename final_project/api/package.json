@@ -1,9 +1,6 @@
 {
   "name": "weightloss-api",
   "version": "1.0.0",
-  "engines": {
-    "node": "13.x"
-  },
   "description": "API for weightloss app",
   "main": "server.js",
   "scripts": {
@@ -17,6 +14,5 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "http": "0.0.0",
-    "node": "^13.1.0"
   }
 }
