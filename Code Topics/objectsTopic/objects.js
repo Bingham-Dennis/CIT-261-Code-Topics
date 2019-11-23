@@ -122,7 +122,6 @@ function focusOnFirstInput() {
  * addFirearm adds a newly created firarm to the list.
 ******************************************************************************/
 function addFirearm(make, model, caliber, price, color, newGun, purchased, owner) {
-  console.log(make);
   if (make !== '' || make !== undefined || make !== null ||
       model !== '' || model !== undefined || model !== null ||
       caliber !== '' || caliber !== undefined || caliber !== null ||
@@ -165,7 +164,6 @@ function addFirearm(make, model, caliber, price, color, newGun, purchased, owner
 
   addToStorage(firearm);
 
-  console.log('gun added');
   clearFields();
   focusOnFirstInput();
   }
@@ -175,7 +173,6 @@ function addFirearm(make, model, caliber, price, color, newGun, purchased, owner
  * Add an item to storage.
 ******************************************************************************/
 function addToStorage(firearm) {
-  console.log(guns);
   if (guns[0] === undefined || guns[0] === null || guns[0] === '') {
     guns.push(firearm);
     let prepGuns = JSON.stringify(guns);
@@ -183,7 +180,6 @@ function addToStorage(firearm) {
     updateList(firearm);
   } else {
     let updateGuns = JSON.parse(gunStorage['guns']);
-    console.log(updateGuns);
     updateGuns.push(firearm);
     let updatedGuns = JSON.stringify(updateGuns);
     gunStorage.setItem('guns', updatedGuns);
