@@ -19,6 +19,4 @@ function getDogPicture() {
   xhttp.send();
 }
 
-dogBtn.addEventListener('click', () => {
-  getDogPicture();
-});
+dogBtn.addEventListener('click', getDogPicture);
